@@ -12,6 +12,7 @@
 		4E0CA430213BAC8400558D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CA42E213BAC8400558D1F /* Main.storyboard */; };
 		4E0CA432213BAC8500558D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CA431213BAC8500558D1F /* Assets.xcassets */; };
 		4E0CA435213BAC8500558D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CA433213BAC8500558D1F /* LaunchScreen.storyboard */; };
+		4E399332213F653400C560FC /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E399331213F653400C560FC /* CategoryTableViewController.swift */; };
 		4EA71E8A213E213C007D9776 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EA71E88213E213C007D9776 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		4E0CA431213BAC8500558D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0CA434213BAC8500558D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E0CA436213BAC8500558D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E399331213F653400C560FC /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		4EA71E89213E213C007D9776 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		4EADBD5F213DF32800CC4D78 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4E399331213F653400C560FC /* CategoryTableViewController.swift */,
 				4E0CA42C213BAC8400558D1F /* ToDoLIstViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 				4E0CA42D213BAC8400558D1F /* ToDoLIstViewController.swift in Sources */,
 				4EA71E8A213E213C007D9776 /* DataModel.xcdatamodeld in Sources */,
 				4E0CA42B213BAC8400558D1F /* AppDelegate.swift in Sources */,
+				4E399332213F653400C560FC /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
